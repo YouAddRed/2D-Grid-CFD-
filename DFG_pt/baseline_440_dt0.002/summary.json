@@ -1,0 +1,104 @@
+{
+  "advection_scheme": "central",
+  "grid_cells": [
+    440,
+    82
+  ],
+  "dx": 0.005,
+  "dy": 0.005,
+  "dt": 0.002,
+  "T": 17.8,
+  "steps": 8900,
+  "Re": 20.0,
+  "steady_stop": true,
+  "steady_checks": 5,
+  "diagnostics": {
+    "max_divergence": 5.449980744476335e-12,
+    "Qin": 0.08200609756097561,
+    "Qout": 0.0820060975609758,
+    "relative_mass_error": 2.199973500353961e-15,
+    "flux_divergence_mismatch": -1.3752148427187773e-17,
+    "outlet_normal_residual": 2.176578212912013e-17,
+    "outlet_tangent_residual": 0.0,
+    "cfl": 0.24265227951246685,
+    "max_speed": 0.40609534028629424,
+    "linear_residual": 7.823838799048133e-12
+  },
+  "Cd_relative_CV_spread": 0.0011165560018770281,
+  "Cl_absolute_CV_spread": 3.675253587329293e-05,
+  "control_volumes": [
+    {
+      "Cd": 5.607735460016089,
+      "Cl": 0.01205248560508029,
+      "drag": 0.011215470920032175,
+      "lift": 2.4104971210160575e-05,
+      "Fx_unsteady": -5.342837738562673e-14,
+      "Fy_unsteady": 4.117266528663167e-12,
+      "bounds": [
+        0.1075,
+        0.3075,
+        0.1075,
+        0.28750000000000003
+      ]
+    },
+    {
+      "Cd": 5.612441622887809,
+      "Cl": 0.012020560397252167,
+      "drag": 0.011224883245775617,
+      "lift": 2.404112079450433e-05,
+      "Fx_unsteady": 1.6822578058728895e-13,
+      "Fy_unsteady": 4.3805137018144946e-12,
+      "bounds": [
+        0.08750000000000001,
+        0.3275,
+        0.08750000000000001,
+        0.3075
+      ]
+    },
+    {
+      "Cd": 5.614000894168411,
+      "Cl": 0.012015733069206997,
+      "drag": 0.01122800178833682,
+      "lift": 2.4031466138413988e-05,
+      "Fx_unsteady": 5.165519018163282e-13,
+      "Fy_unsteady": 2.496851115552326e-12,
+      "bounds": [
+        0.0725,
+        0.34750000000000003,
+        0.0725,
+        0.3275
+      ]
+    }
+  ],
+  "stencil_control_volumes": [
+    {
+      "Cd": 5.612629298903874,
+      "Cl": 0.011968833914471169,
+      "drag": 0.011225258597807746,
+      "lift": 2.3937667828942332e-05
+    },
+    {
+      "Cd": 5.612629298898939,
+      "Cl": 0.011968833919772095,
+      "drag": 0.011225258597797876,
+      "lift": 2.3937667839544186e-05
+    },
+    {
+      "Cd": 5.612629298904437,
+      "Cl": 0.01196883392230713,
+      "drag": 0.011225258597808872,
+      "lift": 2.3937667844614254e-05
+    }
+  ],
+  "stencil_Cd_spread": 5.498712596363475e-12,
+  "stencil_Cl_spread": 7.835961046698259e-12,
+  "pressure_difference_estimate": 0.11128783379077475,
+  "pressure_difference_wider_stencil": 0.10698474392971488,
+  "reference": {
+    "Cd": 5.57953523384,
+    "Cl": 0.010618948146,
+    "pressure_difference": 0.11752016697
+  },
+  "elapsed_seconds": 269.4473326000152,
+  "limitations": "Stair-step circle, explicit first-order time integration, extrapolated wall pressure. Centered advection is experimental; no whole-solver order claim. New coupled solve; not validation of the original projection solver."
+}

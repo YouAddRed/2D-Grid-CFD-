@@ -1,0 +1,5 @@
+Please download these before we start
+
+numpy
+scipy
+matplotlib
