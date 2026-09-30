@@ -1,0 +1,346 @@
+Timestep check: 401 x 401, dt=0.00025, steps=20000, T=5, angle=0 degrees
+Corner audit: mixed neighbor configurations (not unique corners)
+U south: 8
+U north: 8
+V west: 8
+V east: 8
+Mixed configurations retain the existing wall treatment.
+
+Straight-wall channel component test:
+Cells | Zero-solid-row error | Face-aligned ghost error
+   16 |             12.8906% |                  0.3906%
+   32 |              6.3477% |                  0.0977%
+   64 |              3.1494% |                  0.0244%
+Errors are relative to the exact channel peak speed.
+This is a straight-wall diffusion component test, not validation of airfoil lift or drag.
+
+Building pressure fallback factorization...
+Pressure fallback accepted: residual=1.024e-06
+Startup step 10/200 | SOR iterations = 0 | residual = 1.746e-10
+Startup step 20/200 | SOR iterations = 0 | residual = 7.509e-11
+Startup step 30/200 | SOR iterations = 0 | residual = 7.554e-11
+Startup step 40/200 | SOR iterations = 0 | residual = 5.969e-11
+Startup step 50/200 | SOR iterations = 0 | residual = 8.004e-11
+Startup step 60/200 | SOR iterations = 0 | residual = 5.758e-11
+Startup step 70/200 | SOR iterations = 0 | residual = 8.004e-11
+Startup step 80/200 | SOR iterations = 0 | residual = 6.867e-11
+Startup step 90/200 | SOR iterations = 0 | residual = 4.002e-11
+Startup step 100/200 | SOR iterations = 0 | residual = 4.015e-11
+Startup step 110/200 | SOR iterations = 0 | residual = 4.263e-11
+Startup step 120/200 | SOR iterations = 0 | residual = 4.275e-11
+Startup step 130/200 | SOR iterations = 0 | residual = 4.002e-11
+Startup step 140/200 | SOR iterations = 0 | residual = 4.439e-11
+Startup step 150/200 | SOR iterations = 0 | residual = 5.082e-11
+Startup step 160/200 | SOR iterations = 0 | residual = 3.547e-11
+Startup step 170/200 | SOR iterations = 0 | residual = 3.246e-11
+Startup step 180/200 | SOR iterations = 0 | residual = 4.002e-11
+Startup step 190/200 | SOR iterations = 0 | residual = 3.233e-11
+Startup step 200/200 | SOR iterations = 0 | residual = 4.582e-11
+Forces at T=0.1000: Cd=1.25248201, Cl=-0.00000000
+Step   400 | max speed = 1.15579 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.910e-11
+Forces at T=0.2000: Cd=1.00904575, Cl=-0.00000000
+Step   800 | max speed = 1.15659 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.456e-11
+Forces at T=0.3000: Cd=0.91385819, Cl=-0.00000000
+Step  1200 | max speed = 1.15441 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.132e-11
+Forces at T=0.4000: Cd=0.86537694, Cl=-0.00000000
+Step  1600 | max speed = 1.15092 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.760e-11
+Forces at T=0.5000: Cd=0.83779753, Cl=0.00000000
+Step  2000 | max speed = 1.14718 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.530e-11
+Forces at T=0.6000: Cd=0.82088179, Cl=-0.00000000
+Step  2400 | max speed = 1.14369 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.547e-11
+Forces at T=0.7000: Cd=0.80986617, Cl=0.00000000
+Step  2800 | max speed = 1.14073 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.853e-11
+Forces at T=0.8000: Cd=0.80239443, Cl=0.00000000
+Step  3200 | max speed = 1.13833 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.487e-11
+Forces at T=0.9000: Cd=0.79720323, Cl=0.00000000
+Step  3600 | max speed = 1.13649 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.547e-11
+Forces at T=1.0000: Cd=0.79352047, Cl=0.00000000
+Step  4000 | max speed = 1.13520 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.954e-11
+Steady checks = 0/3 | max-speed change = 1.284e-03
+Forces at T=1.1000: Cd=0.79082867, Cl=0.00000000
+Step  4400 | max speed = 1.13437 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.569e-11
+Steady checks = 0/3 | max-speed change = 8.352e-04
+Forces at T=1.2000: Cd=0.78878376, Cl=0.00000000
+Step  4800 | max speed = 1.13389 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.522e-11
+Steady checks = 0/3 | max-speed change = 4.762e-04
+Forces at T=1.3000: Cd=0.78716944, Cl=-0.00000000
+Step  5200 | max speed = 1.13356 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.558e-11
+Steady checks = 0/3 | max-speed change = 3.349e-04
+Forces at T=1.4000: Cd=0.78585497, Cl=0.00000000
+Step  5600 | max speed = 1.13324 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.913e-11
+Steady checks = 0/3 | max-speed change = 3.157e-04
+Forces at T=1.5000: Cd=0.78476219, Cl=0.00000000
+Step  6000 | max speed = 1.13292 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.910e-11
+Steady checks = 0/3 | max-speed change = 3.242e-04
+Forces at T=1.6000: Cd=0.78384355, Cl=0.00000000
+Step  6400 | max speed = 1.13258 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.847e-11
+Steady checks = 0/3 | max-speed change = 3.371e-04
+Forces at T=1.7000: Cd=0.78306858, Cl=-0.00000000
+Step  6800 | max speed = 1.13224 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.990e-11
+Steady checks = 0/3 | max-speed change = 3.363e-04
+Forces at T=1.8000: Cd=0.78241512, Cl=-0.00000000
+Step  7200 | max speed = 1.13193 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.274e-11
+Steady checks = 0/3 | max-speed change = 3.128e-04
+Forces at T=1.9000: Cd=0.78186518, Cl=0.00000000
+Step  7600 | max speed = 1.13165 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.066e-11
+Steady checks = 0/3 | max-speed change = 2.781e-04
+Forces at T=2.0000: Cd=0.78140313, Cl=-0.00000000
+Step  8000 | max speed = 1.13141 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.996e-11
+Steady checks = 0/3 | max-speed change = 2.407e-04
+Forces at T=2.1000: Cd=0.78101551, Cl=0.00000000
+Step  8400 | max speed = 1.13121 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.807e-11
+Steady checks = 0/3 | max-speed change = 2.040e-04
+Forces at T=2.2000: Cd=0.78069068, Cl=0.00000000
+Step  8800 | max speed = 1.13104 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.553e-11
+Steady checks = 0/3 | max-speed change = 1.699e-04
+Forces at T=2.3000: Cd=0.78041875, Cl=-0.00000000
+Step  9200 | max speed = 1.13090 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.109e-11
+Steady checks = 0/3 | max-speed change = 1.428e-04
+Forces at T=2.4000: Cd=0.78019121, Cl=-0.00000000
+Step  9600 | max speed = 1.13078 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.547e-11
+Steady checks = 0/3 | max-speed change = 1.196e-04
+Forces at T=2.5000: Cd=0.78000090, Cl=0.00000000
+Step 10000 | max speed = 1.13068 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.292e-11
+Steady checks = 0/3 | max-speed change = 1.001e-04
+Forces at T=2.6000: Cd=0.77984173, Cl=-0.00000000
+Step 10400 | max speed = 1.13059 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 4.843e-11
+Steady checks = 1/3 | max-speed change = 8.363e-05
+Forces at T=2.7000: Cd=0.77970859, Cl=-0.00000000
+Step 10800 | max speed = 1.13052 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.831e-11
+Steady checks = 2/3 | max-speed change = 6.990e-05
+Forces at T=2.8000: Cd=0.77959720, Cl=0.00000000
+Step 11200 | max speed = 1.13047 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.274e-11
+Steady checks = 3/3 | max-speed change = 5.844e-05
+Forces at T=2.9000: Cd=0.77950396, Cl=-0.00000000
+Step 11600 | max speed = 1.13042 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.979e-11
+Steady checks = 4/3 | max-speed change = 4.888e-05
+Forces at T=3.0000: Cd=0.77942589, Cl=0.00000000
+Step 12000 | max speed = 1.13038 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.689e-11
+Steady checks = 5/3 | max-speed change = 4.090e-05
+Forces at T=3.1000: Cd=0.77936050, Cl=-0.00000000
+Step 12400 | max speed = 1.13034 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.115e-11
+Steady checks = 6/3 | max-speed change = 3.424e-05
+Forces at T=3.2000: Cd=0.77930572, Cl=-0.00000000
+Step 12800 | max speed = 1.13031 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.410e-11
+Steady checks = 7/3 | max-speed change = 2.868e-05
+Forces at T=3.3000: Cd=0.77925982, Cl=-0.00000000
+Step 13200 | max speed = 1.13029 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 1.850e-11
+Steady checks = 8/3 | max-speed change = 2.403e-05
+Forces at T=3.4000: Cd=0.77922134, Cl=0.00000000
+Step 13600 | max speed = 1.13027 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.450e-11
+Steady checks = 9/3 | max-speed change = 2.014e-05
+Forces at T=3.5000: Cd=0.77918909, Cl=-0.00000000
+Step 14000 | max speed = 1.13025 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 4.053e-11
+Steady checks = 10/3 | max-speed change = 1.688e-05
+Forces at T=3.6000: Cd=0.77916205, Cl=0.00000000
+Step 14400 | max speed = 1.13024 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.030e-11
+Steady checks = 11/3 | max-speed change = 1.416e-05
+Forces at T=3.7000: Cd=0.77913937, Cl=-0.00000000
+Step 14800 | max speed = 1.13023 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.910e-11
+Steady checks = 12/3 | max-speed change = 1.188e-05
+Forces at T=3.8000: Cd=0.77912036, Cl=0.00000000
+Step 15200 | max speed = 1.13022 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 4.002e-11
+Steady checks = 13/3 | max-speed change = 9.964e-06
+Forces at T=3.9000: Cd=0.77910441, Cl=-0.00000000
+Step 15600 | max speed = 1.13021 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.808e-11
+Steady checks = 14/3 | max-speed change = 8.360e-06
+Forces at T=4.0000: Cd=0.77909104, Cl=0.00000000
+Step 16000 | max speed = 1.13020 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.303e-11
+Steady checks = 15/3 | max-speed change = 7.014e-06
+Forces at T=4.1000: Cd=0.77907983, Cl=-0.00000000
+Step 16400 | max speed = 1.13019 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.283e-11
+Steady checks = 16/3 | max-speed change = 5.885e-06
+Forces at T=4.2000: Cd=0.77907042, Cl=0.00000000
+Step 16800 | max speed = 1.13019 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.689e-11
+Steady checks = 17/3 | max-speed change = 4.937e-06
+Forces at T=4.3000: Cd=0.77906253, Cl=0.00000000
+Step 17200 | max speed = 1.13018 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.345e-11
+Steady checks = 18/3 | max-speed change = 4.141e-06
+Forces at T=4.4000: Cd=0.77905592, Cl=-0.00000000
+Step 17600 | max speed = 1.13018 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.105e-11
+Steady checks = 19/3 | max-speed change = 3.474e-06
+Forces at T=4.5000: Cd=0.77905037, Cl=-0.00000000
+Step 18000 | max speed = 1.13018 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.363e-11
+Steady checks = 20/3 | max-speed change = 2.913e-06
+Forces at T=4.6000: Cd=0.77904572, Cl=-0.00000000
+Step 18400 | max speed = 1.13018 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.512e-11
+Steady checks = 21/3 | max-speed change = 2.444e-06
+Forces at T=4.7000: Cd=0.77904181, Cl=-0.00000000
+Step 18800 | max speed = 1.13017 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.229e-11
+Steady checks = 22/3 | max-speed change = 2.049e-06
+Forces at T=4.8000: Cd=0.77903854, Cl=0.00000000
+Step 19200 | max speed = 1.13017 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 3.274e-11
+Steady checks = 23/3 | max-speed change = 1.719e-06
+Forces at T=4.9000: Cd=0.77903580, Cl=0.00000000
+Step 19600 | max speed = 1.13017 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 4.002e-11
+Steady checks = 24/3 | max-speed change = 1.441e-06
+Forces at T=5.0000: Cd=0.77903349, Cl=0.00000000
+Step 20000 | max speed = 1.13017 | Qin = 2.493750 | Qout = 2.493750 | mass error = 0.000e+00 | SOR iterations =   0 | Poisson residual = 2.854e-11
+Steady checks = 25/3 | max-speed change = 1.209e-06
+
+Pressure convergence audit:
+Sparse pressure solves: 20000
+Zero SOR iterations means the cached sparse solver was used.
+Steps missing tolerance: 0/20000
+Average SOR iterations: 0.1
+Worst pressure residual: 1.024455e-06
+
+Full-domain boundary audit:
+Left outward flux:   -2.49375000e+00
+Right outward flux:  2.49375000e+00
+Bottom outward flux: -0.00000000e+00
+Top outward flux:    0.00000000e+00
+Net outward flux:    0.00000000e+00
+Relative full-boundary imbalance: 0.00000000e+00
+Integrated fluid divergence: 8.92318947e-17
+Flux-divergence mismatch: -8.92318947e-17
+
+Grid: 401 x 401
+dx = 0.00625000
+dy = 0.00625000
+Total simulation time = 5.000000
+Completed steps = 20000
+Steady-state stop = False
+
+NACA 0012 CFD ANALYSIS
+
+Airfoil scaling:
+Base chord = 0.200000
+Scale factor = 2.000000
+Final chord = 0.400000
+
+Geometry:
+Leading edge = 1.050000
+Trailing edge = 1.450000
+Airfoil cells per chord = 64.00
+Angle of attack = 0.00 degrees
+Thickness ratio = 0.1200
+
+Freestream:
+Inlet speed = 1.000000
+U_inlet = 1.000000
+V_inlet = 0.000000
+U_inf = 1.000000
+Dynamic pressure = 0.500000
+Reynolds number = 40.000000
+
+Velocity:
+Maximum speed = 1.13016973
+Minimum speed = 0.00000000
+
+Global mass conservation:
+Q_in = 2.493750000000
+Q_out = 2.493750000000
+Q_out - Q_in = 0.000000000000e+00
+Relative mass error = 0.000000000000e+00
+
+Divergence:
+Maximum divergence, all fluid cells = 3.55271368e-14
+Maximum divergence, valid cells = 3.55271368e-14
+RMS divergence, valid cells = 1.30459712e-14
+
+Maximum-divergence location:
+x = 0.85625000
+y = 0.16250000
+divergence = 3.55271368e-14
+
+Pressure solver:
+Last SOR iterations = 0
+Last Poisson residual = 2.85353963e-11
+
+Stagger-aware symmetry diagnostics:
+Maximum U symmetry error = 6.66133815e-16
+Maximum V antisymmetry error = 3.92047506e-16
+Maximum P symmetry error = 7.95771869e-15
+
+Control-volume force comparison:
+
+Inner control volume:
+x = 0.9500 to 1.5500
+y = 1.0000 to 1.5000
+Fx_pressure = 0.13174081
+Fx_viscous = 0.00571212
+Fx_momentum = 0.01813046
+Fx_unsteady = 0.00000529
+Fy_total = 0.00000000
+Drag = 0.15558867
+Lift = 0.00000000
+Cd = 0.77794337
+Cl = 0.00000000
+
+Middle control volume:
+x = 0.9000 to 1.6000
+y = 0.9500 to 1.5500
+Fx_pressure = 0.13247577
+Fx_viscous = 0.00226967
+Fx_momentum = 0.02105397
+Fx_unsteady = 0.00000729
+Fy_total = 0.00000000
+Drag = 0.15580670
+Lift = 0.00000000
+Cd = 0.77903349
+Cl = 0.00000000
+
+Outer control volume:
+x = 0.8500 to 1.6500
+y = 0.9000 to 1.6000
+Fx_pressure = 0.13308728
+Fx_viscous = 0.00069631
+Fx_momentum = 0.02213884
+Fx_unsteady = 0.00000941
+Fy_total = 0.00000000
+Drag = 0.15593184
+Lift = 0.00000000
+Cd = 0.77965920
+Cl = 0.00000000
+
+Control-volume consistency:
+Mean Cd = 0.77887869
+Cd spread = 0.00171583
+Relative Cd spread = 0.2203%
+Mean Cl = 0.00000000
+Cl spread = 0.00000000
+
+Reference aerodynamic result:
+Using the Middle control volume
+Drag = 0.15580670
+Lift = 0.00000000
+Cd = 0.77903349
+Cl = 0.00000000
+
+Wake analysis:
+Wake x location = 1.650000
+Freestream velocity = 1.000000
+Minimum wake velocity = 0.361349
+Maximum velocity deficit = 0.638651
+
+Pressure distribution:
+Freestream reference pressure = 0.08487446
+Maximum Cp upper = 1.195879
+Minimum Cp upper = -0.554119
+Maximum Cp lower = 1.195879
+Minimum Cp lower = -0.554119
+Maximum Cp difference = 0.000000
+Minimum Cp difference = -0.000000
+
+Final CFD summary:
+Scale factor: 2.0000
+Chord: 0.4000
+Angle of attack: 0.00 degrees
+Reynolds number: 40.000000
+Lift: 0.000000
+Drag: 0.155807
+Cl: 0.000000
+Cd: 0.779033
+
+Saved data: C:\Users\jni13\OneDrive\Desktop\PythonCode\grid_check_401_dt_0p00025\pressure_audit_results\flow_401x401_aoa_+0.0_T_5.00.npz
+
+Charts saved to: C:\Users\jni13\OneDrive\Desktop\PythonCode\grid_check_401_dt_0p00025\pressure_audit_figures\401x401_angle_+0.0_T_5.00
+Force variation over recorded T=4.000 to 5.000:
+Cd peak-to-peak / mean: 7.386677e-05
+Cl absolute peak-to-peak: 5.915763e-15
+These are diagnostics, not an automatic steady-state verdict.
+Elapsed execution time (including any time charts stayed open): 1786.5 seconds
+Cd change from recorded 201x201 baseline: -1.895160%
+Compare force settling and CV spread as well as final Cd.
+Two grids measure sensitivity; they do not establish grid independence.

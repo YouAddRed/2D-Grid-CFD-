@@ -1,0 +1,19 @@
+Corner audit: mixed neighbor configurations (not unique corners)
+U south: 4
+U north: 4
+V west: 4
+V east: 4
+Mixed configurations retain the existing wall treatment.
+
+Straight-wall channel component test:
+Cells | Zero-solid-row error | Face-aligned ghost error
+   16 |             12.8906% |                  0.3906%
+   32 |              6.3477% |                  0.0977%
+   64 |              3.1494% |                  0.0244%
+Errors are relative to the exact channel peak speed.
+This is a straight-wall diffusion component test, not validation of airfoil lift or drag.
+
+Building pressure fallback factorization...
+Discrete pressure recovery max error: 1.105782e-13
+Original stencil residual: 1.236913e-10
+PASS: sparse solve matches the original masked pressure operator and boundary conditions.
